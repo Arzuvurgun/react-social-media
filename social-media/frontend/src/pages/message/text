@@ -1,0 +1,43 @@
+/*
+
+import React from 'react';
+import { useParams, Link } from 'react-router-dom';
+// Stil dosyasını import etmek için
+import './messagePage.css';
+
+// Ana Sayfa bileşeni
+const MessagePage = () => {
+
+
+    const { senderId, receiverId } = useParams();
+    const [messages, setMessages] = useState([]);
+    const [receiver, setReceiver] = useState({});
+    const [newMessage, setNewMessage] = useState('');
+
+    useEffect(() => {
+        // Mesajları ve alıcıyı almak için API çağrısı yapılacak
+        fetch(`/api/messages?senderId=${senderId}&receiverId=${receiverId}`)
+        .then(response => response.json())
+        .then(data => {
+            setMessages(data.messages);
+            setReceiver(data.receiver);
+        });
+    }, [senderId, receiverId]);
+
+    const sendMessage = (e) => {
+        e.preventDefault();
+        // Mesaj göndermek için API çağrısı yapılacak
+        fetch(`/api/send-message`, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ sender: senderId, receiver: receiverId, content: newMessage }),
+        })
+        .then(response => response.json())
+        .then(newMessage => {
+            setMessages([...messages, newMessage]);
+            setNewMessage('');
+        });
+    };
+*/

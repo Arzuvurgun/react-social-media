@@ -1,0 +1,143 @@
+.message {
+    display: flex;
+    flex-direction: column;
+    width: 100%; 
+}
+
+.message-box {
+    height: 500vw;
+    overflow: auto; 
+    justify-content: flex-end;
+    padding: 0 20px;
+}
+
+
+.message-content {
+    border-radius: 8px;
+    margin: 8px 0;
+    padding: 10px 10px 0px 10px;
+    border: 1px solid #e5e5e5;
+}
+
+.message-content p {
+    color: white !important;
+}
+
+.message-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 20px;
+    box-sizing: border-box; /* Padding ve border'ı dahil eder */
+    height: 100%; /* Parent elementin tamamını kaplar */
+}
+
+.right {
+    float: right;
+    align-items: flex-end; 
+}
+
+.left {
+    float: left;
+    align-items: flex-start;
+}
+
+.bg-blue {
+    background-color: #70B5F9 !important;
+    color: white !important;
+}
+
+.bg-green {
+    background-color: #7FC15E !important;
+    color: white !important;
+}
+
+
+#chat_box {
+    height: 100%;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #e0e0e0;
+    padding: 20px;
+    padding-left: 5vh;
+}
+
+
+.new-box {
+    background-color: rgba(0, 0, 0, 0.638);
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    border-radius: 10px;
+    z-index: 100;
+}
+
+.new-message {
+    padding: 20px;
+    background-color: white;
+    position: absolute;
+    overflow: auto;
+    height: 700px;
+    width: 500px;
+    left: 50%;
+    right: 50%;
+    transform: translate(-20%, 20%);
+    border-radius: 10px;
+    z-index: 101;
+}
+
+.new-message-input{
+    border: 1px solid #0000004d !important;
+    height: 40px;
+    width: 100%;
+    border: 0;
+    border-radius: 6px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+.new-message-user {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    gap: 5%;
+    text-align: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.new-message-user-pp {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.new-message-button {
+    background-color: #0a66c2;
+    color: white;
+    border: 0;
+    border-radius: 6px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.new-message-close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+    color: black;
+    background-color: white;
+    font-weight: bold;
+    border: 0;
+    padding: 5px 10px;
+    box-sizing: border-box;
+
+}

@@ -1,0 +1,82 @@
+.login{
+    background:var(--color-primary);
+    height: 100vh;
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content:center ;
+}
+
+.login .card{
+    display: flex; 
+    width: 850px;
+    height: 60%;
+    background: white;  
+    border:1px solid white;    
+    border-radius: 2rem;
+    overflow: hidden;
+}
+
+.login .card .left{
+    flex :1;
+    display: flex; 
+    flex-direction: column;
+    gap: 10px ;
+    padding: 20px;
+    padding-top: 6vh;
+    margin-top: 8vh;
+
+}
+.login h2{
+    color: var(--color-primary);
+}
+.login .card  p{
+    font-size: .9rem;
+    padding-top: 4vh;
+
+}
+.login .card span{
+    color:var(--color-primary); 
+    text-align: end;
+}
+
+.login .card .right{
+    flex :1;
+    background-color: var(--color-primary);
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:10px;
+}
+.login form input{
+    padding:1rem 0 ;
+    width:90%;
+    background-color: transparent;
+    border:transparent;
+    outline : none;
+    border-bottom: 1px solid white;
+    margin:0 auto;
+    color: white;
+}
+
+.login form input::placeholder{
+    color :white;
+    font-size: 1rem;
+    text-transform: capitalize;
+}
+
+.login form .btn{
+    color: var(--color-primary);
+    margin-top: rem;
+
+}
+.login span{
+    margin-top: 38px;
+    font-size:small;
+
+}
+.login  .btn.btn-primary{
+    margin-left: 17vh !important;
+    margin-top:-10px !important;
+}

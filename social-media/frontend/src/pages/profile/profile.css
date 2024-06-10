@@ -1,0 +1,46 @@
+/* profile.css */
+
+/* Profil kartı stilleri */
+.profileHome .card-header {
+  background-image: url(https://p4.wallpaperbetter.com/wallpaper/374/891/830/rainbow-color-soft-gradation-wallpaper-preview.jpg);
+  height: 70px;
+}
+
+.profileHome .profil {
+  width: 70px;
+  height: 70px;
+  margin-right: 8vh;
+}
+
+/* Profil adı ve bilgileri */
+.profileHome .header {
+  color: #212529;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+/* Gönderi stilleri */
+.profileHome .card {
+  margin-top: 2rem;
+}
+
+.profileHome .card-header {
+  display: flex;
+  align-items: center;
+}
+
+.profileHome .card-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+/* Gönderi başlık ve içerikleri */
+.profileHome .card-body p {
+  margin-bottom: 0;
+}
+
+.card-text{
+  width: 130px;
+  padding-right: 20px;
+}

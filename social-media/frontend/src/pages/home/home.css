@@ -1,0 +1,216 @@
+body{
+  background-color: #f3f2ef;
+}
+.home .navbarbg {
+  height: 55px;
+  background-color: white;
+}
+/* Add your styles here */
+
+.home .profil{
+  display:block;
+  margin: 0 auto;
+ text-align: center;
+ border-radius: 50%;
+ border: 2px white solid;
+ position: relative;
+ top: 20px;
+ left: 10px;
+}
+.container{
+  height: 60px;
+  border-color: white;
+}
+.home .categories {
+  display: inline-block;
+  width: 80%;
+  font-size: 13px;
+  margin-top: 8px;
+  font-weight: bold;
+  color: #0a66c2;
+}
+
+.home input.searche {
+  height: 36px;
+  max-width: 500px;
+  background-color: #eef3f8;
+  border: 0;
+}
+
+.home input.searche::placeholder {
+  font-size: 14px;
+  color: gray;
+  background-image: url("../../assets/search.svg");
+  background-repeat: no-repeat;
+  background-size: 9%;
+}
+.home .btn{
+  margin-left:15px;
+}
+.home {
+  background-color: #f3f2ef;
+}
+
+.home .menutext {
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: gray;
+  margin-top: 5px;
+  font-weight: lighter;
+  font-weight: bold;
+
+  
+}
+
+.home .menutext:hover {
+  color: black;
+}
+
+.home button.mediatext {
+  color: #5f5f5f;
+}
+
+.home button.mediatext:hover {
+  color: #5f5f5f;
+}
+
+.home .mediatext {
+  font-size: 15px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #5f5f5f;
+
+}
+
+.home i {
+  color: gray;
+  margin-top: 8px;
+}
+.home i:hover {
+  color: black;
+}
+
+
+.home input.content {
+  border-radius: 40px;
+  height: 45px;
+}
+.home input.content::placeholder {
+  font-weight: bolder;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("../../assets/edit-regular.svg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  margin:auto;
+}
+
+.home div.card {
+  border-radius: 10px;
+  background-color: white;
+}
+
+.home .header {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+.home .view {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  color: #5f5f5f;
+  display: inline-block;
+  line-height: 1.4;
+  text-align: left;
+  width: 100%;
+}
+
+
+.home li {
+  font-size: 14px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  background-color: white;
+
+}
+
+.home .link {
+  font-size: 12px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #5f5f5f;
+}
+
+.home button.ref {
+  color: white;
+}
+
+.home button.ref:hover {
+  color: #5f5f5f;
+}
+
+.home .postphoto {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+.home .posttext {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  margin-left: 8px;
+}
+.home .border-bottom-grey{
+  border-bottom: 1px solid rgb(161, 161, 161);
+  
+}
+
+.home .enYenı{
+  overflow:visible;
+}
+
+.home .bi-card-image{
+  color:  #70B5F9;
+ 
+}
+.home .bi-play-btn-fill{
+  color:  #7FC15E;
+}
+.home .bi-calendar-date{
+  color:  #E7A33E;
+}
+.home .bi-pencil-square{
+  color:  #6c63ff;
+}
+
+.home .navicon{
+  display: flex;
+  justify-content: center;
+}
+.card-footer {
+  background-color:white !important;
+}
+.card-footer  img{
+  width: 100px;
+  margin-left: -16px ;
+}
+.send-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+.column-1{
+  align-items: center;
+  background-color: #007bff;
+  border-radius:30px ; /* Sadece sağ kenarları yuvarlayın */
+}
+
+.actions div {
+  cursor: pointer;
+}

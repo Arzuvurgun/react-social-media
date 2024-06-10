@@ -1,0 +1,115 @@
+.message-page {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    padding: 20px;
+  }
+  
+  .column-3 {
+    flex: 3;
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  
+  .column-9 {
+    flex: 7;
+    padding: 20px;
+    padding-left: 5vh;
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .message-history {
+    overflow-y: auto; /* Mesaj geçmişi uzunsa scrollbar göster */
+  }
+  
+  .message-time {
+    display: flex;
+    justify-content: end;
+  }
+  
+  .message-item {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .profile-picture img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background-color: #75808c;
+  }
+  
+  .message-details {
+    flex: 1;
+  }
+  
+  .message-details .sender-name {
+    color: black;
+    font-size: larger;
+    font-weight: bold;
+  }
+  
+  .add-message-button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+    position: absolute; /* Konumunu belirlemek için */
+    bottom: 20px;
+    right: calc(50% + 300px); /* Sayfa genişliğinin yarısına 200 piksel ekleyerek sola kaydır */
+    transform: translateX(-50%); /* Tam ortaya hizalama */
+    margin-bottom: 20px;
+  }
+  
+  .message-form {
+    /* height: 83vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 20px;
+  }
+  
+  .inputm {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .messageinput {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 30px; /* Sadece sol kenarları yuvarlayın */
+    flex: 1;
+  }
+  
+  .column-2 {
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px; /* Yatayda padding ekleyin */
+    background-color: #007bff;
+    border-radius:30px ; /* Sadece sağ kenarları yuvarlayın */
+  }
+  
+  .send-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+  }
+  
